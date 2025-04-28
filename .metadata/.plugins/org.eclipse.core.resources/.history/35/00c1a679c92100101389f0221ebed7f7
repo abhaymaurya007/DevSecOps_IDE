@@ -1,0 +1,17 @@
+package com.nit.tests;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.mockito.Mockito;
+
+public class MockStubVsSpyTest {
+	
+	
+	List<String> listofMock=Mockito.mock(ArrayList.class);
+	List<String> listofSpy=Mockito.spy(ArrayList.class);
+	
+	
+	
+
+}

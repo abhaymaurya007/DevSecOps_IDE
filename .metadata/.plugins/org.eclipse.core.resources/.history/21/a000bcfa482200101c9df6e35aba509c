@@ -1,0 +1,17 @@
+package com.nit.service;
+
+public class MoreOperationsService {
+	
+	public boolean isPallendrome(String s) {
+		
+		if(s==null ||s.length()==0 ||s.equals(""))
+			throw new IllegalAccessException("Invalid String");
+		String s1=new StringBuilder(s).reverse().toString();
+		if(s.equalsIgnoreCase(s1)) {
+			return true;
+		}
+		else 
+			return false;
+	}
+
+}

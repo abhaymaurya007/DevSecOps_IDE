@@ -1,0 +1,10 @@
+package com.nit.tests;
+
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.SelectPackages;
+
+@SelectClasses({ AppTest.class })
+@Suite
+public class SuitTest {
+
+}

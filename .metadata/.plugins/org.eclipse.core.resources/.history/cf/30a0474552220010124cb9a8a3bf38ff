@@ -1,0 +1,11 @@
+package com.nit.tests;
+
+import org.junit.jupiter.api.Tag;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.Suite;
+
+@Tag("suite")
+@SelectClasses({ AppTest.class })
+public class suitetest {
+
+}

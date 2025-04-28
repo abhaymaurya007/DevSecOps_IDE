@@ -1,0 +1,18 @@
+package com.nit.tests;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+import com.nit.service.MoreOperationsService;
+
+
+public class AppTest {
+     private static MoreOperationsService mos;
+    
+      public void Initlization(){
+    	  mos=new MoreOperationsService();
+    	  System.out.println("AppTest.Initlization()");
+    	  
+      }
+}

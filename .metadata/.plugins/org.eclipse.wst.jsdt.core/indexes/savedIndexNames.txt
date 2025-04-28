@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\DevSecOps_IDE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2529830968.index
+131737462.index
+759030784.index
+1352630889.index
+2628262105.index
+956843382.index
+2502251742.index

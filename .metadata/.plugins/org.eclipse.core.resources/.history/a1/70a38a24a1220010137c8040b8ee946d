@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="mavenProj_01">
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/appClientModule" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/" source-path="/src/test/java"/>
+        <dependent-module archiveName="JunitProj01-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/JunitProj01/JunitProj01">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="mavenProj_01"/>
+        <property name="java-output-path" value="/mavenProj_01/target/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

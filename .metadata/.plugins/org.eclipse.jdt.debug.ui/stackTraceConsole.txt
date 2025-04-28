@@ -1,0 +1,5 @@
+org.junit.platform.commons.JUnitException: @BeforeEach method 'public static void com.nit.test.AppTest.afterTest()' must not be static.
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
