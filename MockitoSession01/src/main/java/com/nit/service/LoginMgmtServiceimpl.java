@@ -24,12 +24,15 @@ public class LoginMgmtServiceimpl implements ILoginMGMTService {
 	@Override
 	public String registerUser(String user, String role) {
 		if(user.equalsIgnoreCase("")||role.equalsIgnoreCase("")) {
-			dao.addUser(user, role);
-			return "user added";
+			
+			return "user not added";
 			
 		}
 		else
-			return "user not added";
+		{   
+			dao.addUser(user, role);
+			return "user  added";
+		}
 	}
 
 }

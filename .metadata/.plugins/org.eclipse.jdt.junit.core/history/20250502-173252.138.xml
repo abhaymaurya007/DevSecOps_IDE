@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginMgmtServiceTestAnno" project="MockitoSession01" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.nit.tests.LoginMgmtServiceTestAnno" time="0.119" displayname="LoginMgmtServiceTestAnno" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginMgmtServiceTestAnno]">
+    <testcase name="testLoginWithValidCredentials" classname="com.nit.tests.LoginMgmtServiceTestAnno" time="0.103" displayname="testLoginWithValidCredentials()" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginMgmtServiceTestAnno]/[method:testLoginWithValidCredentials()]"/>
+    <testcase name="testLoginWithInValidCredentials" classname="com.nit.tests.LoginMgmtServiceTestAnno" time="0.004" displayname="testLoginWithInValidCredentials()" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginMgmtServiceTestAnno]/[method:testLoginWithInValidCredentials()]"/>
+    <testcase name="testWithNoCredentials" classname="com.nit.tests.LoginMgmtServiceTestAnno" time="0.007" displayname="testWithNoCredentials()" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginMgmtServiceTestAnno]/[method:testWithNoCredentials()]"/>
+  </testsuite>
+</testrun>

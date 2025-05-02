@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginTestWithMockito" project="MockitoSession01" tests="4" started="4" failures="1" errors="0" ignored="0">
+  <testsuite name="com.nit.tests.LoginTestWithMockito" time="0.327" displayname="LoginTestWithMockito" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginTestWithMockito]">
+    <testcase name="testRegisterUserSpy" classname="com.nit.tests.LoginTestWithMockito" time="0.301" displayname="testRegisterUserSpy()" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginTestWithMockito]/[method:testRegisterUserSpy()]">
+      <failure>
+        <expected>iLoginDAO.addUser("raja", "rani");</expected>
+        <actual>iLoginDAO.addUser("jani", "");
+</actual>
+        Argument(s) are different! Wanted:
+iLoginDAO.addUser("raja", "rani");
+-&gt; at com.nit.tests.LoginTestWithMockito.testRegisterUserSpy(LoginTestWithMockito.java:59)
+Actual invocations have different arguments at positions [0, 1]:
+iLoginDAO.addUser("jani", "");
+-&gt; at com.nit.service.LoginMgmtServiceimpl.registerUser(LoginMgmtServiceimpl.java:27)
+&#13;
+	at com.nit.tests.LoginTestWithMockito.testRegisterUserSpy(LoginTestWithMockito.java:59)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testLoginVAlueWithvalidCreditiantials" classname="com.nit.tests.LoginTestWithMockito" time="0.016" displayname="testLoginVAlueWithvalidCreditiantials()" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginTestWithMockito]/[method:testLoginVAlueWithvalidCreditiantials()]"/>
+    <testcase name="testLoginWithNoCredentials" classname="com.nit.tests.LoginTestWithMockito" time="0.003" displayname="testLoginWithNoCredentials()" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginTestWithMockito]/[method:testLoginWithNoCredentials()]"/>
+    <testcase name="testLoginVAlueWithinvalidCreditiantials" classname="com.nit.tests.LoginTestWithMockito" time="0.003" displayname="testLoginVAlueWithinvalidCreditiantials()" uniqueid="[engine:junit-jupiter]/[class:com.nit.tests.LoginTestWithMockito]/[method:testLoginVAlueWithinvalidCreditiantials()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,25 @@
+package com.nit.tests;
+
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import com.nit.dao.ILoginDAO;
+import com.nit.service.LoginMgmtServiceimpl;
+
+public class LoginMgmtServiceTestAnno {
+	
+	@InjectMocks
+	private LoginMgmtServiceimpl loginService;
+	@Mock
+	private ILoginDAO LoginDAOMock;
+	
+//	@Spy
+//	public ILoginDAO loginDAOSpy;
+    @Test
+	public LoginMgmtServiceTestAnno() {
+		
+		MockitoAnnotations.openMocks(this);
+	}
+
+}

@@ -1,6 +1,6 @@
 package com.nit.tests;
 
-import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterAll; 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -19,7 +19,8 @@ public class LoginTestWithMockito {
 	
 	@BeforeAll
 	public static void setUp() {
-		loginDAO=Mockito.mock(loginDAO);
+		loginDAO=Mockito.mock(ILoginDAO.class);
+		System.out.println("<ock object class name  :"+loginDAO.getClass());
 		loginSrvice=new LoginMgmtServiceimpl(loginDAO);
 		
 	}
@@ -37,7 +38,7 @@ public class LoginTestWithMockito {
 	@Test
 	public void testLoginVAlueWithinvalidCreditiantials() {
 		
-		Mockito.when(loginDAO.authenticate("raja", "rani1")).thenReturn(1);
+		Mockito.when(loginDAO.authenticate("raja", "rani1")).thenReturn(0);
 		assertFalse(loginSrvice.login("raja", "rani1"));
 	}
 	@Test
@@ -46,14 +47,18 @@ public class LoginTestWithMockito {
 	}
 	@Test
    public void testRegisterUserSpy() {
-	   ILoginDAO logindaoSPY=Mockito.spy(ILoginDAO.class);
-	   ILoginMGMTService loginService=new LoginMgmtServiceimpl(logindaoSPY);
-	   loginService.registerUser("raja", "admin");
-	   loginService.registerUser("suresh", "customer");
-	   loginService.registerUser("jani", "");
-	   Mockito.verify(logindaoSPY,Mockito.times(1)).addUser("raja","admin");
-	   Mockito.verify(logindaoSPY,Mockito.times(1)).addUser("suresh","customer");
-	   Mockito.verify(logindaoSPY,Mockito.times(0)).addUser("jani","");
+//	   ILoginDAO logindaoSPY=Mockito.spy(ILoginDAO.class);
+//	   ILoginMGMTService loginService=new LoginMgmtServiceimpl(logindaoSPY);
+		loginSrvice.registerUser("raja", "rani");
+		loginSrvice.registerUser("anil", "hyd");
+		loginSrvice.registerUser("chari", "");
+//	   Mockito.verify(logindaoSPY,Mockito.times(1)).addUser("raja","admin");
+//	   Mockito.verify(logindaoSPY,Mockito.times(1)).addUser("suresh","customer");
+//	   Mockito.verify(logindaoSPY,Mockito.times(0)).addUser("jani","");
+		
+		Mockito.verify(loginDAO,Mockito.times(1)).addUser("raja", "rani");
+		Mockito.verify(loginDAO,Mockito.times(1)).addUser("anil", "hyd");
+		Mockito.verify(loginDAO,Mockito.times(0)).addUser("chari", "");
 	   
 	   
    }
