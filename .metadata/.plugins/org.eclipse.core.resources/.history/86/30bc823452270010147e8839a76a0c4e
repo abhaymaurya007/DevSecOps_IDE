@@ -24,7 +24,7 @@ public class LoginMgmtServiceimpl implements ILoginMGMTService {
 	@Override
 	public String registerUser(String user, String role) {
 		if(user.equalsIgnoreCase("")||role.equalsIgnoreCase("")) {
-			//hi
+			
 			return "user not added";
 			
 		}

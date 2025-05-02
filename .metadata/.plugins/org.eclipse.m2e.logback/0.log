@@ -2286,3 +2286,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.codehaus.
 2025-05-02 18:03:43,040 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DevSecOps_IDE\MockitoSession01\src\test\resources
 2025-05-02 18:04:24,357 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DevSecOps_IDE\MockitoSession01\src\main\resources
 2025-05-02 18:04:24,359 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DevSecOps_IDE\MockitoSession01\src\test\resources
+2025-05-02 18:07:27,168 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DevSecOps_IDE\MockitoSession01\src\main\resources
+2025-05-02 18:07:27,171 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DevSecOps_IDE\MockitoSession01\src\test\resources
