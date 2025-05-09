@@ -1,0 +1,8 @@
+2025-05-09 08:15:16,490 [main] DEBUG com.nit.main.SelectTest - SelectTest::start of main method()
+2025-05-09 08:15:16,793 [main] DEBUG com.nit.main.SelectTest - Driver class Succesfully Loaded
+2025-05-09 08:15:17,299 [main] INFO  com.nit.main.SelectTest - Connection is established
+2025-05-09 08:15:17,410 [main] DEBUG com.nit.main.SelectTest - prepare statment obj is created
+2025-05-09 08:15:17,458 [main] DEBUG com.nit.main.SelectTest - query executed & resulset obj crated
+2025-05-09 08:15:17,468 [main] WARN  com.nit.main.SelectTest - records are storing into resulset
+2025-05-09 08:15:17,471 [main] DEBUG com.nit.main.SelectTest - all object closed
+2025-05-09 08:15:17,471 [main] DEBUG com.nit.main.SelectTest - main method  closed
