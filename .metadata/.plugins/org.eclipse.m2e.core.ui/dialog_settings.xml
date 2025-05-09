@@ -26,12 +26,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="nit.SL4FJProj01_Withlog4J"/>
 			<item value="com.nit.main"/>
 		</list>
 		<list key="groupId">
 			<item value="nit"/>
 		</list>
 		<list key="artifactId">
+			<item value="SL4FJProj01-Withlog4J"/>
 			<item value="mavenProj_01"/>
 			<item value="JunitProj01"/>
 		</list>
