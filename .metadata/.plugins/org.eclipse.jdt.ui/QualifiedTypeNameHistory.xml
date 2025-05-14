@@ -20,9 +20,11 @@
     <fullyQualifiedTypeName name="com.nit.dao.ILoginDAO"/>
     <fullyQualifiedTypeName name="com.nit.service.ILoginMGMTService"/>
     <fullyQualifiedTypeName name="com.nit.service.LoginMgmtServiceimpl"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="com.nit.main.SelectTest"/>
 </qualifiedTypeNameHistroy>
