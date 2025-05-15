@@ -1,7 +1,7 @@
 package com.nit.main;
 
 
-import java.awt.List;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -18,6 +18,7 @@ public class SelectTest {
     	SelectTest s=new SelectTest();
     	s.m1();
     	System.out.println("SelectTest.main( ended)");
+    	logger.info("hii ");
        
 	}
     public void m2() {
@@ -26,11 +27,7 @@ public class SelectTest {
     public void m1() {
     	System.out.println("SelectTest.m1()");
     	String s="";
-    	List l=new ArrayList();
-    	l.add(10);
-    	l.add(20);
-    	list=null;
-    	list.add(40);
+
     	
     }
     
